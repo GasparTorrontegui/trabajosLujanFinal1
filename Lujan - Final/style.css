@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+ul.navbar {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #000, transparent 90%);
+    list-style-type: none;
+    overflow: hidden;
+}
+
+ul.navbar li {
+    float: left;
+    width: 25%;
+}
+
+ul.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+ul.navbar li a:hover {
+    background: linear-gradient(to top, #000, transparent 100%);
+}
+
+.content1 {
+    margin-top: 100px;
+}
+
+/* TÍTULOS, LOGO Y BOTONES DE INICIO Y FONDO - CONSULTAR POR POSITIONS Y FORMA DE COLOCARLOS */
+
+#principal {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+#contenido-principal {
+    display: flex;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, transparent, #000 85%);
+}
+
+#principal-derecha {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+#principal h3 {
+    font-size: 48px;
+    margin: 0;
+}
+
+#principal h2 {
+    font-size: 24px;
+}
+
+#principal h1 {
+    font-size: 16px;
+}
+
+#fondo {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 1000;
+}
+
+#logo {
+    filter: brightness(0.9);
+    width: 40%;
+}
+
+#logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+button,
+input {
+    padding: 10px 20px;
+    background-color: rgba(177, 0, 0, 0.936);
+    border: #000 solid 2px;
+    border-radius: 16px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+#botones-principal {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+#botones-designs {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 30px;
+    left: 50%;
+}
+
+#busqueda {
+    background-color: #fff;
+    color: #000;
+}
+
+/* TEXTO E IMÁGENES A PARTIR DE DISEÑOS - PREGUNTAR POR HACERLO MAS ORDENADO Y EFICIENTE */
+
+#designs {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+#designs-derecha {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+}
+
+#texto-designs {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    left: 5vh;
+}
+
+#texto-designs h3 {
+    font-size: 32px;
+    margin: 0;
+}
+
+#texto-designs h2 {
+    font-size: 24px;
+}
+
+/* SE UTILIZA IMAGENES-DESIGNS PARA HACER UN LUGAR DONDE COLOCAR LAS IMAGENES Y PONERLES SCROLL, LAS IMÁGENES SON INDEPENDIENTES - PREGUNTAR POR POSICIONAMIENTO */
+
+#imagenes-designs {
+    overflow-x: scroll;
+    top: 10vh;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-color: #f00;
+}
+
+#imagenes-designs img {
+    position: absolute;
+    top: 8px;
+}
+
+#des1 img {
+    left: 10px;
+}
+
+#des2 img {
+    left: 404px;
+}
+
+#des3 img {
+    left: 798px;
+}
+
+#des4 img {
+    left: 1192px;
+}
+
+#des5 img {
+    left: 1586px;
+}
+
+#des6 img {
+    left: 1980px;
+}
+
+#des7 img {
+    left: 2374px;
+}
+
+#des8 img {
+    left: 2768px;
+}
